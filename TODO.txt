@@ -1,5 +1,8 @@
 - Nerd mode vs user mode
 - background highlight instead of underline
 - gradient background
-- attractive sidebar bg
+- attractive explorer bg
 - active page and file highlight
+- blog pages and explorer item
+- highlight new blog with green color like git diff
+- resizable and collapsible explorer

@@ -4,8 +4,9 @@ import 'neon/styles.css';
 import React from 'react';
 import { Metadata } from 'next';
 
+import { ThemeProvider } from '@/ui/theme-provider';
+
 import { cn } from '@/lib/utils';
-import { ThemeProvider } from '@/components/theme-provider';
 
 import Header from './components/header';
 import { font_cal_sans, font_inter, font_josefin_sans } from './fonts';
