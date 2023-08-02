@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  /* Dynamic height calculation utility */
+  .h-p-calc {
+    height: calc(100% - var(--h-offset, 0px));
+  }
+
+  /* Dynamic width calculation utility */
+  .w-p-calc {
+    width: calc(100% - var(--w-offset, 0px));
+  }
+
+  /* Dynamic height calculation utility */
+  .h-v-calc {
+    height: calc(100vh - var(--h-offset, 0px));
+  }
+
+  /* Dynamic width calculation utility */
+  .w-v-calc {
+    width: calc(100vw - var(--w-offset, 0px));
+  }
+}

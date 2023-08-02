@@ -1,7 +1,6 @@
 'use client';
 
 import * as React from 'react';
-
 import { useTheme } from 'next-themes';
 
 import { Moon as MoonIcon, Sun as SunIcon } from '@phosphor-icons/react';

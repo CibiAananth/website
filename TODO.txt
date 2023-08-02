@@ -1,0 +1,5 @@
+- Nerd mode vs user mode
+- background highlight instead of underline
+- gradient background
+- attractive sidebar bg
+- active page and file highlight

@@ -12,11 +12,9 @@ module.exports = {
   htmlWhitespaceSensitivity: 'ignore',
 
   importOrder: [
-    '',
     '<BUILT_IN_MODULES>',
     '',
     '^(react/(.*)$)|^(react$)|^(react-(.*)$)',
-    '',
     '^(next/(.*)$)|^(next$)|^(next-(.*)$)',
     '',
     '<THIRD_PARTY_MODULES>',
@@ -35,8 +33,7 @@ module.exports = {
     '^.*\\.s?css$', // Match any import that ends with .css or .scss
     '^[./]',
   ],
-  importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
-  importOrderSeparation: true,
+  importOrderParserPlugins: ['typescript', 'jsx'],
   importOrderTypeScriptVersion: '>=5.0.0',
 
   tailwindFunctions: ['clsx', 'cva', 'tw'],

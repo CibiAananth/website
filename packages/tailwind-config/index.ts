@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {
   darkMode: 'class',
@@ -17,6 +18,7 @@ export default {
         '2xl': '1400px',
       },
     },
+
     extend: {
       colors: {
         border: 'hsl(var(--border))',
@@ -57,6 +59,10 @@ export default {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+      },
+      fontFamily: {
+        cal: ['var(--font-cal)', ...fontFamily.sans],
+        inter: ['var(--font-inter)', ...fontFamily.sans],
       },
       keyframes: {
         'fade-up': {

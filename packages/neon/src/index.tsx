@@ -1,8 +1,11 @@
 // styles
+
 import './styles.css';
 
 // components
 export * from '@/components/alert';
+export * from '@/components/accordion';
+export * from '@/components/explorer';
 export * from '@/components/badge';
 export * from '@/components/button';
 export * from '@/components/dropdown-menu';
