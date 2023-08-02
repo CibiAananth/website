@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnSaveMode": "file",
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
